@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Admin.AdminCategoryActivity">
+    <TextView
+        android:id="@+id/slgan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="27dp"
+        android:text="إضافة صنف"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        />
+   <LinearLayout
+       android:id="@+id/categoty1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/slgan_category"
+       android:orientation="horizontal"
+       android:layout_centerHorizontal="true"
+       android:gravity="center"
+      android:layout_marginTop="20dp"
+       >
+       <ImageView
+           android:layout_marginLeft="50dp"
+           android:layout_width="125dp"
+           android:layout_height="100dp"
+           android:src="@drawable/b2"
+           android:id="@+id/c2"
+
+           />
+
+       <ImageView
+           android:layout_width="wrap_content"
+           android:layout_height="85dp"
+           android:src="@drawable/b3"
+           android:layout_marginLeft="20dp"
+           android:id="@+id/c3"
+           />
+       <ImageView
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="65dp"
+           android:src="@drawable/b1"
+           android:id="@+id/c10"
+
+           />
+
+   </LinearLayout>
+       <LinearLayout
+           android:id="@+id/categoty12"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/categoty1"
+           android:orientation="horizontal"
+           android:layout_centerHorizontal="true"
+           android:gravity="center"
+           android:layout_marginTop="10dp"
+           >
+           <ImageView
+               android:layout_marginLeft="10dp"
+               android:layout_width="125dp"
+               android:layout_height="100dp"
+               android:src="@drawable/b4"
+               android:id="@+id/c4"
+
+               />
+           <ImageView
+               android:layout_marginLeft="3dp"
+               android:layout_width="100dp"
+               android:layout_height="100dp"
+               android:src="@drawable/b5"
+               android:id="@+id/c8"
+               />
+
+
+           <ImageView
+               android:id="@+id/c6"
+               android:layout_width="wrap_content"
+               android:layout_height="100dp"
+               android:src="@drawable/b6"
+               />
+       </LinearLayout>
+           <LinearLayout
+               android:id="@+id/categoty15"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/categoty13"
+               android:orientation="horizontal"
+               android:layout_centerHorizontal="true"
+               android:gravity="center"
+
+               android:layout_marginTop="10dp"
+               >
+
+
+
+           </LinearLayout>
+    <!--LinearLayout
+        android:id="@+id/categoty16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoty15"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="65dp"
+            android:src="@drawable/c11"
+            android:id="@+id/c11"
+
+            />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/c13"
+            android:id="@+id/c13"
+            />
+
+    </LinearLayout-->
+    <LinearLayout
+        android:id="@+id/categoty13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoty12"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_marginTop="10dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/b7"
+            android:id="@+id/c5"
+
+            />
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b8"
+            android:id="@+id/c7"
+
+            />
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/b9"
+            android:id="@+id/c9"
+
+            />
+
+    </LinearLayout>
+
+
+    <!--LinearLayout
+        android:id="@+id/categoty17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoty16"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="65dp"
+            android:src="@drawable/c9"
+            android:id="@+id/c9"
+
+            />
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/c12"
+            android:id="@+id/c12"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/categoty14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoty17"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+
+        android:layout_marginTop="20dp"
+        >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/add"
+
+        />
+    </LinearLayout-->
+
+    <Button
+        android:id="@+id/mintain_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="قائمة الأصناف"
+        android:layout_above="@+id/check_orders_btn"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/check_orders_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_logout_btn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:background="@color/colorPrimaryDark"
+        android:text="الطلبات الجديدة"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/admin_logout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="تسجيل خروج"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        />
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

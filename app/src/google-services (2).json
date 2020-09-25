@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "724583051147",
+    "firebase_url": "https://restrantdlv.firebaseio.com",
+    "project_id": "restrantdlv",
+    "storage_bucket": "restrantdlv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724583051147:android:e91f87ea8a5d00f645498e",
+        "android_client_info": {
+          "package_name": "com.example.resturantdlv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724583051147-fer524tdk7d28lbk78ce4a85es2qc0of.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.resturantdlv",
+            "certificate_hash": "50f94e9f5e775cae15957055a4c12311e1993928"
+          }
+        },
+        {
+          "client_id": "724583051147-2e7d9lgcsblsee411pi2h9jqpn49guvk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7Zl7DvgmOw_YFPAWvV-CqadQaxyzIAu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724583051147-2e7d9lgcsblsee411pi2h9jqpn49guvk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
